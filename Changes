@@ -1,4 +1,7 @@
 Revision history for Perl extension Lingua::JA::WebIDF::Driver::TokyoTyrant
 
+0.02    Sat, 28 Jul 2012 17:59:28 +0900
+        - changed Lingua::JA::WebIDF dependency from 0.31 to 0.32
+
 0.01    Sat, 28 Jul 2012 15:09:31 +0900
         - original version
