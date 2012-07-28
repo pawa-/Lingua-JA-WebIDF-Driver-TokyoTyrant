@@ -88,12 +88,15 @@ my ($appid);
   my $webidf = Lingua::JA::WebIDF->new(
       api      => 'Yahoo',
       appid    => $appid,
-      fetch_df => 1,
       driver   => 'TokyoTyrant',
+      df_file  => 'localhost:1978',
+      fetch_df => 1,
   );
 
+  $webidf->db_open;
   print $webidf->idf("東京"); # low
   print $webidf->idf("スリジャヤワルダナプラコッテ"); # high
+  $webidf->db_close;
 
 =head1 DESCRIPTION
 
