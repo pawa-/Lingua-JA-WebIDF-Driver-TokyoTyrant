@@ -5,7 +5,6 @@ use File::Spec;
 use Test::More;
 use Test::Fatal;
 use Test::ttserver;
-use lib './lib/'; # load TokyoTyrant.pm
 
 
 my %config = (
