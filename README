@@ -1,0 +1,35 @@
+NAME
+    Lingua::JA::WebIDF::Driver::TokyoTyrant - TokyoTyrant plugin for
+    Lingua::JA::WebIDF
+
+SYNOPSIS
+      use Lingua::JA::WebIDF;
+
+      my $webidf = Lingua::JA::WebIDF->new(
+          api      => 'Yahoo',
+          appid    => $appid,
+          fetch_df => 1,
+          driver   => 'TokyoTyrant',
+      );
+
+      print $webidf->idf("東京"); # low
+      print $webidf->idf("スリジャヤワルダナプラコッテ"); # high
+
+DESCRIPTION
+    Lingua::JA::WebIDF::Driver::TokyoTyrant is a TokyoTyrant plugin for
+    Lingua::JA::WebIDF.
+
+AUTHOR
+    pawa <pawapawa@cpan.org>
+
+SEE ALSO
+    Lingua::JA::WebIDF
+
+    Lingua::JA::TFWebIDF
+
+    Tokyo Tyrant: <http://fallabs.com/tokyotyrant/>
+
+LICENSE
+    This library is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself.
+

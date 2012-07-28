@@ -1,0 +1,27 @@
+This is Perl module Lingua::JA::WebIDF::Driver::TokyoTyrant.
+
+INSTALLATION
+
+Lingua::JA::WebIDF::Driver::TokyoTyrant installation is straightforward. If your CPAN shell is set up,
+you should just be able to do
+
+    % cpan Lingua::JA::WebIDF::Driver::TokyoTyrant
+
+Download it, unpack it, then build it as per the usual:
+
+    % perl Makefile.PL
+    % make && make test
+
+Then install it:
+
+    % make install
+
+DOCUMENTATION
+
+Lingua::JA::WebIDF::Driver::TokyoTyrant documentation is available as in POD. So you can do:
+
+    % perldoc Lingua::JA::WebIDF::Driver::TokyoTyrant
+
+to read the documentation online with your favorite pager.
+
+pawa
