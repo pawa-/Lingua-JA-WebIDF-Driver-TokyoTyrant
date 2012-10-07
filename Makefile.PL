@@ -5,7 +5,7 @@ all_from 'lib/Lingua/JA/WebIDF/Driver/TokyoTyrant.pm';
 
 requires 'Carp';
 requires 'TokyoTyrant';
-requires 'Lingua::JA::WebIDF' => 0.32;
+requires 'Lingua::JA::WebIDF' => 0.43;
 
 test_requires 'Test::More'     => 0.88; # done_testing
 test_requires 'Test::Fatal';
