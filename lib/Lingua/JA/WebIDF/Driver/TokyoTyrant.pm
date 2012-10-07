@@ -7,7 +7,7 @@ use warnings;
 use Carp ();
 use TokyoTyrant;
 
-our $VERSION = '0.02';
+our $VERSION = '0.10';
 push(@Lingua::JA::WebIDF::NETWORK_INTERFACE_PLUGIN, 'TokyoTyrant');
 
 
@@ -71,6 +71,7 @@ sub db_close
 }
 
 1;
+
 __END__
 
 =encoding utf8
