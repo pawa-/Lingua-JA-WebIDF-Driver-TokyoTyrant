@@ -8,10 +8,10 @@ use Test::ttserver;
 
 
 my %config = (
-    appid    => 'test',
     driver   => 'TokyoTyrant',
     fetch_df => 0,
     df_file  => 'example.com:1978',
+    verbose  => 0,
 );
 
 my $webidf = Lingua::JA::WebIDF->new(\%config);

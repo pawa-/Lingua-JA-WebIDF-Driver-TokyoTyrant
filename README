@@ -6,11 +6,8 @@ SYNOPSIS
       use Lingua::JA::WebIDF;
 
       my $webidf = Lingua::JA::WebIDF->new(
-          api      => 'Yahoo',
-          appid    => $appid,
           driver   => 'TokyoTyrant',
           df_file  => 'localhost:1978',
-          fetch_df => 1,
       );
 
       $webidf->db_open;
@@ -26,9 +23,11 @@ AUTHOR
     pawa <pawapawa@cpan.org>
 
 SEE ALSO
-    Lingua::JA::WebIDF
+    Lingua::JA::TermExtractor
 
     Lingua::JA::TFWebIDF
+
+    Lingua::JA::WebIDF
 
     Tokyo Tyrant: <http://fallabs.com/tokyotyrant/>
 

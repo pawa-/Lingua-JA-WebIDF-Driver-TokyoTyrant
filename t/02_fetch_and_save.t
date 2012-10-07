@@ -52,6 +52,7 @@ test_tcp(
             appid    => 'test',
             fetch_df => 0,
             driver   => 'TokyoTyrant',
+            verbose  => 0,
         );
 
         push(@Test::ttserver::SearchPaths, File::Spec->path);
